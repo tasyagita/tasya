@@ -1,6 +1,6 @@
 {
-  "name": "Line_Bot_Shalat",
-  "description": "Jadwal Shalat Untuk Bot Line",
-  "repository": "https://github.com/zFz0000/Line_Bot_Shalat",
+  "name": "Line_Shalat",
+  "description": "Jadwal Shalat Untuk Chatbot Line",
+  "repository": "https://github.com/zFz0000/Line_Shalat",
   "keywords": ["line bot", "messaging api"]
 }
