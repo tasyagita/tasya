@@ -9,7 +9,7 @@ Modified @ Farzain - zFz
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = '1655374365'; //sesuaikan 
+$channelAccessToken = 'fRv//1H66WpRDFNIRJ3jDogSpiyFiKgyyBd5b9FnulKDkVvt34jM25ULg+coS+xOcQ5Lf5DN5bdxsOibvo67H1TMFq81zZ1jyPUiKlfXoEWcxdNaUOTZW9LxoSAD0w0cAdOEZuZxHqT97Et+MbKEpgdB04t89/1O/w1cDnyilFU='; //sesuaikan 
 $channelSecret = 'dcc2a82dfee72ff99309839051b0a1c3';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
@@ -69,7 +69,7 @@ function shalat($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/menu') {
-    $text = "Assalamualaikum Kakak, aku adalah bot jadwal shalat, silahkan ketik\n\n/shalat <nama tempat>\n\nnanti aku bakalan kasih tahu jam berapa waktunya shalat ^_^";
+    $text = "Assalamualaikum, aku adalah bot jadwal shalat, silahkan ketik\n\n/shalat <nama tempat>\n\nnanti aku bakalan kasih tahu jam berapa waktunya shalat ^_^";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
